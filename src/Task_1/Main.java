@@ -14,7 +14,6 @@ public class Main {
          */
 
         // создаем массив со значениями от 0 до 10
-
         ThreadAddArr threadAddArr = new ThreadAddArr();
         Thread addArr = new Thread(threadAddArr);
         addArr.start();
